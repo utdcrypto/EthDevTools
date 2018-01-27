@@ -12,6 +12,7 @@ sudo apt upgrade -y;
 sudo apt install solc;
 sudo apt install curl;
 sudo apt install npm;
+sudo apt install git;
 
 #install npm via method reccommended at https://github.com/creationix/nvm#installation
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash;
@@ -24,5 +25,11 @@ nvm install node;
 npm install web3@0.18.2;
 #install testrpc utility
 npm install -g ganache-cli;
+
+#creates folder at /home/<user>/workshops/
+mkdir ~/workshops;
+
+#clones workshops from http://github.com/utdcrypto to folders named by date of workshops
+git clone https://github.com/utdcrypto/SaturdayWorkshop.git ~/workshops/1-27-2018;
 
 exit;
