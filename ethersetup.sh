@@ -23,6 +23,6 @@ nvm install node;
 #install reccommended web3
 npm install web3@0.18.2;
 #install testrpc utility
-npm install -g ethereumjs-testrpc;
+npm install -g ganache-cli;
 
 exit;
