@@ -30,6 +30,6 @@ npm install -g ganache-cli;
 mkdir ~/workshops;
 
 #clones workshops from http://github.com/utdcrypto to folders named by date of workshops
-git clone https://github.com/utdcrypto/SaturdayWorkshop.git ~/workshops/1-27-2018;
+x-terminal-emulator -e "git clone https://github.com/utdcrypto/SaturdayWorkshop.git ~/workshops/1-27-2018"&
 
 exit;
