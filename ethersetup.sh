@@ -25,6 +25,8 @@ nvm install node;
 npm install web3@0.18.2;
 #install testrpc utility
 npm install -g ganache-cli;
+#install truffle suite/debugger
+npm install -g truffle;
 
 #clones workshops from http://github.com/utdcrypto to folders named by date of workshops
 x-terminal-emulator -e "curl https://raw.githubusercontent.com/utdcrypto/EthDevTools/master/cloneworkshops.sh | bash"&
