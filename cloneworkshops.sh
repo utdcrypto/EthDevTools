@@ -6,6 +6,7 @@
 mkdir ~/workshops
 
 #clone repos into their respective folders
-git clone https://github.com/utdcrypto/SaturdayWorkshop.git ~/workshops/1-27-2018;
+git clone https://github.com/utdcrypto/SaturdayWorkshop.git ~/workshops/01-27-2018;
+git clone https://github.com/StephenGrider/EthereumCasts.git ~/workshops/03-03-2018;
 
 exit;
