@@ -1,5 +1,5 @@
 #!/bin/bash
-#this script clones all workshops from http://github.com/utdcrypto to ~/workshops/<date of workshop>
+#this script clones all repos used in the workshops of Dallas Blockchain Edu to ~/workshops/<date of workshop>
 #script by no_data_here <error.404.no.data.here@gmail.com>
 
 #make ~/workshops if it doesn't exist
